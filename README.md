@@ -2,6 +2,10 @@
 
 Automates a simple pipeline to generate a quote, create a background image, render a short video with FFmpeg, and upload to YouTube.
 
+## Para que serve
+
+Gera automaticamente um video curto no estilo YouTube Shorts: cria a frase, monta a imagem de fundo, combina audio e renderiza o video, e pode enviar para o YouTube com OAuth. Serve para produzir conteudo motivacional rapido com o minimo de trabalho manual.
+
 ## Requirements
 
 - Python 3.10+
