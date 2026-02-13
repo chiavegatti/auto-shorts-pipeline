@@ -37,9 +37,22 @@ copy .env-example .env
 $env:OPENAI_API_KEY = "your_api_key"
 ```
 
-5) Replace the mock `client_secret.json` with your real Google OAuth client file.
+5) Copy the mock OAuth file and replace values:
+
+```
+copy client_secret.json.example client_secret.json
+```
 
 6) Add at least one MP3 file to `bg_audio_tracks/`.
+
+## Quick Start
+
+```
+pip install -r requirements.txt
+copy .env-example .env
+copy client_secret.json.example client_secret.json
+python auto_shorts.py
+```
 
 ## Run
 
