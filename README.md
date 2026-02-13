@@ -22,14 +22,22 @@ Automatically generates a short video in the YouTube Shorts style: creates the q
 pip install -r requirements.txt
 ```
 
-3) Set environment variables:
+3) Create your environment file from the example and set variables:
+
+```
+copy .env-example .env
+```
+
+4) Set environment variables:
 
 ```
 # PowerShell
 $env:OPENAI_API_KEY = "your_api_key"
 ```
 
-4) Add at least one MP3 file to `bg_audio_tracks/`.
+5) Replace the mock `client_secret.json` with your real Google OAuth client file.
+
+6) Add at least one MP3 file to `bg_audio_tracks/`.
 
 ## Run
 
