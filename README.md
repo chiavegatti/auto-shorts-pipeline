@@ -2,9 +2,9 @@
 
 Automates a simple pipeline to generate a quote, create a background image, render a short video with FFmpeg, and upload to YouTube.
 
-## Para que serve
+## Purpose
 
-Gera automaticamente um video curto no estilo YouTube Shorts: cria a frase, monta a imagem de fundo, combina audio e renderiza o video, e pode enviar para o YouTube com OAuth. Serve para produzir conteudo motivacional rapido com o minimo de trabalho manual.
+Automatically generates a short video in the YouTube Shorts style: creates the quote, builds a background image, mixes audio, renders the video, and can upload to YouTube via OAuth. It is meant for fast production of motivational content with minimal manual work.
 
 ## Requirements
 
