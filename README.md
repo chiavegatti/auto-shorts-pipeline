@@ -50,3 +50,4 @@ python auto_shorts.py
 - Outputs are written to `output_videos/`.
 - Logs are written to `pipeline_log.txt`.
 - The YouTube upload step uses OAuth and will prompt in the console.
+- `client_secret.json` and `.env` are ignored by git for security.
