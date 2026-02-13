@@ -1,5 +1,7 @@
 # Auto Shorts
 
+[![Repository](https://img.shields.io/badge/repo-auto--shorts--pipeline-2ea44f?logo=github)](https://github.com/chiavegatti/auto-shorts-pipeline)
+
 Automates a simple pipeline to generate a quote, create a background image, render a short video with FFmpeg, and upload to YouTube.
 
 ## Purpose
