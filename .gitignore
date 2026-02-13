@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Logs
+pipeline_log.txt
+
+# Secrets
+.env
+client_secret.json
+
+# Media outputs
+output_videos/
+bg_audio_tracks/
+
+# OS
+.DS_Store
+Thumbs.db
